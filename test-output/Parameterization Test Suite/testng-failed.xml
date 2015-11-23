@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization Test Suite]">
+  <parameter name="username" value="testuser"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="password" value="testpassword"/>
+  <listeners>
+    <listener class-name="testng.parameter.dependency.suit.test.ParameterizeTest"/>
+  </listeners>
+  <test name="Testing Parameterization(failed)">
+    <parameter name="username" value="testuser"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="password" value="testpassword"/>
+    <classes>
+      <class name="testng.parameter.dependency.suit.test.ParameterizeTest">
+        <methods>
+          <include name="calculateSum" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng.parameter.dependency.suit.test.ParameterizeTest -->
+    </classes>
+  </test> <!-- Testing Parameterization(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

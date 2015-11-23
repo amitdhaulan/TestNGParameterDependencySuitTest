@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<!-- <test name="Testing Parameterization"> <parameter name="browser" value="Firefox" 
+		/> <parameter name="username" value="testuser" /> <parameter name="password" 
+		value="testpassword" /> <classes> <class name="testng.parameter.ParameterizeTest" 
+		/> <listeners> <listener class-name="testng.parameter.ParameterizeTest" /> 
+		</listeners> </classes> </test> -->
+
+	<!-- <test name="exampletest1"> <classes> <class name="testng.suit.Test1" 
+		/> </classes> </test> <test name="exampletest2"> <classes> <class name="testng.suit.Test2" 
+		/> </classes> </test> -->
+</suite>
